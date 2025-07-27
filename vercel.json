@@ -1,0 +1,20 @@
+{
+  "functions": {
+    "api/save.js": {
+      "maxDuration": 10
+    },
+    "api/raw.js": {
+      "maxDuration": 10
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/save",
+      "destination": "/api/save"
+    },
+    {
+      "source": "/raw",
+      "destination": "/api/raw"
+    }
+  ]
+}
